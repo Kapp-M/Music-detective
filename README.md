@@ -2,7 +2,7 @@
 
 **Understanding how a music player works through code analysis, browser testing, and reverse engineering.**
 
-Music Detective is a hands-on learning project focused on investigating an existing music player, understanding its behavior, and tracing that behavior back to the source code.
+Music Detective project focused on investigating an existing music player, understanding its behavior, and tracing that behavior back to the source code.
 
 Rather than immediately rebuilding the application, the goal is to first understand how its components, state, event handlers, and audio controls work together.
 
@@ -73,4 +73,36 @@ The next phase focuses on connecting observable behavior to implementation.
 2. **Playback controls:** Investigate Play/Pause, Shuffle, and Loop, including relevant state and effects.
 3. **Search and filtering:** Follow search and genre filters through the application logic.
 4. **Edge cases:** Test empty search results, filtering out the currently selected track, and track-list boundaries.
-5. **Evidence and
+5. **Evidence and documentation:** Record the user action, visible result, relevant source code, and any remaining uncertainty.
+
+## 📁 Repository Structure
+
+```text
+Music-detective/
+├── audio-player-lab/       # Experimental application snapshot
+├── notes/
+│   └── progress-log.md     # Investigation notes and findings
+├── .gitignore
+└── README.md
+```
+
+The original target clone is kept separately from the main repository's tracked files. Dependencies and generated build output are excluded from version control.
+
+## 📌 Current Status
+
+**Phase 1 — Initial Setup and Behavioral Observation**
+
+The project environment is set up, the experimental application builds successfully, and initial player behavior has been documented.
+
+**Source-to-behavior tracing is still in progress.** The project has not yet completed a full reconstruction of the application's internal logic.
+
+## 📚 Reference
+
+- Original project: [madzadev/audio-player](https://github.com/madzadev/audio-player)
+- Investigation notes: [`notes/progress-log.md`](notes/progress-log.md)
+
+This repository is intended as a learning and analysis project. The original application remains the reference implementation; the current work documents the investigation rather than claiming an independent implementation.
+
+## ⚖️ Attribution
+
+The application being investigated is available under the MIT License in its original repository. Refer to the upstream project for its license and attribution requirements when redistributing its code.
