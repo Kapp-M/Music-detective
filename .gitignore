@@ -1,0 +1,20 @@
+﻿# Dependencies and build output
+node_modules/
+dist/
+.vite/
+coverage/
+
+# Environment and local files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Nested Git repositories
+/audio-player-lab/.git/
+/targets/
+
+# Editor and OS files
+.vscode/
+.idea/
