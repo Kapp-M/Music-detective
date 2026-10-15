@@ -1,4 +1,4 @@
-# 🎵 Music Detective
+#  Music Detective
 
 **Understanding how a music player works through code analysis, browser testing, and reverse engineering.**
 
@@ -6,7 +6,7 @@ Music Detective project focused on investigating an existing music player, under
 
 Rather than immediately rebuilding the application, the goal is to first understand how its components, state, event handlers, and audio controls work together.
 
-## 🎯 Project Goals
+## Project Goals
 
 - Understand the structure of an existing React application.
 - Observe and document user-facing behavior.
